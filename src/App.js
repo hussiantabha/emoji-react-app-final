@@ -45,7 +45,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>
-        Hello <span style={{ color: color }}>{test}</span>
+        <span style={{ color: color }}>{test}</span>
       </h1>
       <input onChange={emojiInputHandler}></input>
       <div>
